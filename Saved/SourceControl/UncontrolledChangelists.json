@@ -5,7 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/PlayerAnimation/ARPG_Warrior_Anim_UE_Attack_Combo4_Montage.uasset",
+				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/ThirdPerson/Blueprints/AnimNS_HitDetection.uasset",
+				"C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/PlayerAnimation/ARPG_Warrior_Anim_UE_Attack_Combo1_Montage.uasset"
 			]
 		}
 	]
