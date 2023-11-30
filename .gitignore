@@ -12,3 +12,8 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+Saved/Logs/FinalGroupProject.log
+*.ush
+*.log
+*.json
+Saved/Config/WindowsEditor/Engine.ini
