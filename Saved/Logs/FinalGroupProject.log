@@ -1136,3 +1136,110 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.30-22.12.39:090][  0]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.11.30-22.12.39:861][ 19]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2023.11.30-22.12.40:374][ 26]LogViewport: Scene viewport resized to 1026x736, mode Windowed.
+[2023.11.30-22.14.25:841][571]LogSlate: Took 0.000641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.30-22.14.32:442][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.11.30-22.14.32:731][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-22.14.32:747][791]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/PlayLevel.PlayLevel
+[2023.11.30-22.14.32:748][791]Cmd: MAP LOAD FILE="../../../../../../Users/aortwine/Documents/GitHub/FinalGroupProject/Content/Levels/PlayLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.11.30-22.14.32:748][791]LightingResults: New page: Lighting Build
+[2023.11.30-22.14.32:748][791]LoadErrors: New page: Loading map: PlayLevel.umap
+[2023.11.30-22.14.32:752][791]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-22.14.32:752][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-22.14.32:765][791]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.11.30-22.14.32:765][791]MapCheck: New page: Map Check
+[2023.11.30-22.14.32:765][791]LightingResults: New page: Lighting Build
+[2023.11.30-22.14.32:812][791]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.30-22.14.32:820][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.11.30-22.14.32:822][791]LogWorld: UWorld::CleanupWorld for PlayLevel, bSessionEnded=true, bCleanupResources=true
+[2023.11.30-22.14.32:824][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.30-22.14.32:840][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.11.30-22.14.32:854][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.11.30-22.14.32:867][791]LogAudio: Display: Audio Device (ID: 1) registered with world 'PlayLevel'.
+[2023.11.30-22.14.32:867][791]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-22.14.32:867][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.30-22.14.32:867][791]LogAIModule: Creating AISystem for world PlayLevel
+[2023.11.30-22.14.32:906][791]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.11.30-22.14.32:926][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.11.30-22.14.32:935][791]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.11.30-22.14.32:935][791]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.229ms to complete.
+[2023.11.30-22.14.32:935][791]LogFileHelpers: Loading map 'PlayLevel' took 0.187
+[2023.11.30-22.14.33:002][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.33:004][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.33:005][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.33:006][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.33:006][791]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.37:412][935]LogDerivedDataCache: C:/Users/aortwine/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:20.535 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 10790 files in 12797 folders with total size 4690 MiB.
+[2023.11.30-22.14.39:446][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:448][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:449][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:449][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:450][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:451][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:452][ 11]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.39:472][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.30-22.14.39:728][ 20]Cmd: DELETE
+[2023.11.30-22.14.39:729][ 20]Cmd: ACTOR DELETE
+[2023.11.30-22.14.39:736][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.11.30-22.14.39:754][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.30-22.14.39:756][ 20]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2023.11.30-22.14.39:767][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.11.30-22.14.40:958][ 77]LogEditorViewport: Clicking Background
+[2023.11.30-22.14.41:757][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.30-22.14.41:929][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PlayLevel" FILE="../../../../../../Users/aortwine/Documents/GitHub/FinalGroupProject/Content/Levels/PlayLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.11.30-22.14.41:941][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.11.30-22.14.41:949][ 96]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.006870 seconds
+[2023.11.30-22.14.41:958][ 96]LogSerialization: UsePackageTrailer: 'true'
+[2023.11.30-22.14.42:017][ 96]LogSavePackage: Moving output files for package: /Game/Levels/PlayLevel
+[2023.11.30-22.14.42:018][ 96]LogSavePackage: Moving '../../../../../../Users/aortwine/Documents/GitHub/FinalGroupProject/Saved/PlayLevel5E6F20AC4D208B4DE1F0FA85BB21A1B0.tmp' to '../../../../../../Users/aortwine/Documents/GitHub/FinalGroupProject/Content/Levels/PlayLevel.umap'
+[2023.11.30-22.14.42:032][ 96]LogFileHelpers: Saving map 'PlayLevel' took 0.105
+[2023.11.30-22.14.42:073][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave took 316 ms
+[2023.11.30-22.14.42:080][ 96]AssetCheck: New page: Asset Save: PlayLevel
+[2023.11.30-22.14.42:080][ 96]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/PlayLevel.PlayLevel
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:268][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:269][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.14.55:270][350]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/aortwine/Documents/GitHub/FinalGroupProject'
+[2023.11.30-22.15.01:735][350]LogSlate: Window 'Submit Files' being destroyed
+[2023.11.30-22.15.03:439][350]LogSourceControl: commit successful: [AlexBranch 474a588] small change
+[2023.11.30-22.15.03:636][350]SourceControl: [AlexBranch 474a588] small change
+[2023.11.30-22.15.03:636][350]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2023.11.30-22.15.03:774][350]SourceControl: Commited [AlexBranch 474a588] small change.
