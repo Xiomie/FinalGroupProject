@@ -19,3 +19,6 @@ Saved/Logs/FinalGroupProject.log
 Saved/Config/WindowsEditor/Engine.ini
 Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
 Saved/Logs/FinalGroupProject.log
+*.json
+*.ini
+*.log
