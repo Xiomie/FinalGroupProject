@@ -4408,3 +4408,425 @@ Script Stack (0 frames) :
 [2023.12.06-23.44.05:370][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 1.11 sec)
 [2023.12.06-23.44.05:375][741]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
 [2023.12.06-23.44.05:375][741]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2023.12.06-23.46.27:800][648]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-23.46.27:807][648]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.06-23.46.27:809][648]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.06-23.46.27:809][648]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.06-23.46.27:809][648]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 91 us)
+[2023.12.06-23.46.27:809][648]LogWorldPartition: Display: GenerateStreaming took 145 us (total: 49 ms)
+[2023.12.06-23.46.27:810][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-23.46.27:810][648]PIE: New page: PIE session: ThirdPersonMap (Dec 6, 2023, 1:46:27 PM)
+[2023.12.06-23.46.27:810][648]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.06-23.46.27:816][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005169s)
+[2023.12.06-23.46.27:816][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005205s)
+[2023.12.06-23.46.27:816][648]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-23.46.27:816][648]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-23.46.27:817][648]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.06-23.46.27:817][648]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-23.46.27:817][648]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-23.46.27:817][648]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.06-23.46.27:818][648]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.06-23.46.27:818][648]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 337 ms)
+[2023.12.06-23.46.27:818][648]LogPlayLevel: PIE: World Init took: (0.001954s)
+[2023.12.06-23.46.27:842][648]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.12.06-23.46.27:848][648]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.06-23.46.27:848][648]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-23.46.27:848][648]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-23.46.27:848][648]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-23.46.27:848][648]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-23.46.27:848][648]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-23.46.27:851][648]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-23.46.27:879][648]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.06-23.46.27:879][648]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-23.46.27:879][648]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-23.46.27:879][648]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-23.46.27:880][648]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.12.06-23.46.27:880][648]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.12.06-23.46.27:881][648]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.12.06-23.46.27:881][648]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.12.06-23.46.27:881][648]LogInit: FAudioDevice initialized with ID 19.
+[2023.12.06-23.46.27:881][648]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2023.12.06-23.46.27:881][648]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.06-23.46.27:883][648]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.06-23.46.27:888][648]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.12.06-18.46.27
+[2023.12.06-23.46.27:889][648]LogWorld: Bringing up level for play took: 0.005810
+[2023.12.06-23.46.27:891][648]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.12.06-23.46.27:903][648]PIE: Server logged in
+[2023.12.06-23.46.27:904][648]PIE: Play in editor total start time 0.096 seconds.
+[2023.12.06-23.46.27:926][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:927][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:927][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:927][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:927][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:928][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:928][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:928][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:928][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:929][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:930][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:930][648]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:939][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:939][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:939][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:939][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:939][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:939][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:940][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:940][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:940][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:940][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:941][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:941][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:942][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.27:943][649]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.30:120][777]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D142C301_2136596695] 25.0
+[2023.12.06-23.46.30:537][802]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D142C301_2136596695] 0.0
+[2023.12.06-23.46.31:674][870]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.46.41:970][488]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 175.0
+[2023.12.06-23.46.43:637][588]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 150.0
+[2023.12.06-23.46.47:987][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 125.0
+[2023.12.06-23.47.00:855][621]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_UAID_30050581C9D1FEBC01_1376950391] 175.0
+[2023.12.06-23.47.02:188][701]LogScript: Warning: Switch statement failed to match case for index property Temp_int_Variable
+	BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_0
+	Function /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C:ExecuteUbergraph_BP_ThirdPersonCharacter:0E2D
+[2023.12.06-23.47.11:833][279]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 100.0
+[2023.12.06-23.47.12:332][309]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 75.0
+[2023.12.06-23.47.13:317][368]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 50.0
+[2023.12.06-23.47.14:449][436]LogNet: Browse: /Game/Levels/VictoryLevel/VictoryLevel
+[2023.12.06-23.47.14:449][436]LogLoad: LoadMap: /Game/Levels/VictoryLevel/VictoryLevel
+[2023.12.06-23.47.14:449][436]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.06-23.47.14:450][436]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-23.47.14:450][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.47.14:451][436]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.06-23.47.14:507][436]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-23.47.14:511][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.06-23.47.14:519][436]LogAudio: Display: Audio Device (ID: 19) registered with world 'VictoryLevel'.
+[2023.12.06-23.47.14:519][436]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-23.47.14:519][436]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-23.47.14:519][436]LogAIModule: Creating AISystem for world VictoryLevel
+[2023.12.06-23.47.14:520][436]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2023.12.06-23.47.14:520][436]LogLoad: Game class is 'GM_VictoryLevel_C'
+[2023.12.06-23.47.14:520][436]LogWorld: Bringing World /Game/Levels/VictoryLevel/UEDPIE_0_VictoryLevel.VictoryLevel up for play (max tick rate 60) at 2023.12.06-18.47.14
+[2023.12.06-23.47.14:520][436]LogWorld: Bringing up level for play took: 0.000367
+[2023.12.06-23.47.14:520][436]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.12.06-23.47.14:521][436]LogLoad: Took 0.072765 seconds to LoadMap(/Game/Levels/VictoryLevel/VictoryLevel)
+[2023.12.06-23.47.14:524][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:524][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:525][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:525][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:525][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:525][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:526][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:526][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:526][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:526][436]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:533][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:533][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:533][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:533][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:534][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:534][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:535][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:535][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:535][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.14:535][437]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:515][616]LogNet: Browse: /Game/Levels/MainMenu/MainMenu
+[2023.12.06-23.47.17:515][616]LogLoad: LoadMap: /Game/Levels/MainMenu/MainMenu
+[2023.12.06-23.47.17:515][616]LogWorld: BeginTearingDown for /Game/Levels/VictoryLevel/UEDPIE_0_VictoryLevel
+[2023.12.06-23.47.17:515][616]LogWorld: UWorld::CleanupWorld for VictoryLevel, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-23.47.17:515][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.47.17:581][616]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-23.47.17:583][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.12.06-23.47.17:590][616]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainMenu'.
+[2023.12.06-23.47.17:590][616]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-23.47.17:590][616]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-23.47.17:592][616]LogAIModule: Creating AISystem for world MainMenu
+[2023.12.06-23.47.17:592][616]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2023.12.06-23.47.17:592][616]LogLoad: Game class is 'GM_MainMenu_C'
+[2023.12.06-23.47.17:592][616]LogWorld: Bringing World /Game/Levels/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2023.12.06-18.47.17
+[2023.12.06-23.47.17:592][616]LogWorld: Bringing up level for play took: 0.000372
+[2023.12.06-23.47.17:593][616]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.12.06-23.47.17:593][616]LogLoad: Took 0.077990 seconds to LoadMap(/Game/Levels/MainMenu/MainMenu)
+[2023.12.06-23.47.17:596][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:596][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:597][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:597][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:597][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:598][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:598][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:598][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:598][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.17:599][616]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:585][916]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2023.12.06-23.47.22:587][916]LogLongPackageNames: Warning: Can't Find URL: None: . Invalidating and reverting to Default URL.
+[2023.12.06-23.47.22:587][916]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.06-23.47.22:587][916]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.06-23.47.22:587][916]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap'
+[2023.12.06-23.47.22:587][916]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2023.12.06-23.47.22:587][916]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/ThirdPerson/Maps/ThirdPersonMap'
+[2023.12.06-23.47.22:601][917]LogNet: Browse: /Game/ThirdPerson/Maps/ThirdPersonMap?closed
+[2023.12.06-23.47.22:601][917]LogNet: Connection failed; returning to Entry
+[2023.12.06-23.47.22:601][917]LogLoad: LoadMap: /Game/ThirdPerson/Maps/ThirdPersonMap?closed
+[2023.12.06-23.47.22:601][917]LogWorld: BeginTearingDown for /Game/Levels/MainMenu/UEDPIE_0_MainMenu
+[2023.12.06-23.47.22:601][917]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-23.47.22:601][917]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.47.22:626][917]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-23.47.22:628][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.06-23.47.22:631][917]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.06-23.47.22:636][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005251s)
+[2023.12.06-23.47.22:636][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005309s)
+[2023.12.06-23.47.22:636][917]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2023.12.06-23.47.22:636][917]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-23.47.22:636][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-23.47.22:636][917]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.06-23.47.22:636][917]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-23.47.22:636][917]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-23.47.22:636][917]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.06-23.47.22:637][917]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.06-23.47.22:637][917]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 338 ms)
+[2023.12.06-23.47.22:637][917]LogPlayLevel: PIE: World Init took: (0.001857s)
+[2023.12.06-23.47.22:637][917]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.06-23.47.22:643][917]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.12.06-18.47.22
+[2023.12.06-23.47.22:644][917]LogWorld: Bringing up level for play took: 0.005200
+[2023.12.06-23.47.22:654][917]LogLoad: Took 0.053398 seconds to LoadMap(/Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap)
+[2023.12.06-23.47.22:676][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.12.06-23.47.22:683][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:683][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:684][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:684][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:684][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:685][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:685][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:685][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:685][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:685][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:686][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:686][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:686][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:686][917]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:696][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:696][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:696][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:696][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:697][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:697][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:697][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:697][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:698][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:698][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:698][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:698][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:699][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.22:699][918]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.31:244][429]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 175.0
+[2023.12.06-23.47.31:744][459]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 150.0
+[2023.12.06-23.47.32:927][530]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 125.0
+[2023.12.06-23.47.37:095][780]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D142C301_2136596695] 25.0
+[2023.12.06-23.47.37:494][804]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D142C301_2136596695] 0.0
+[2023.12.06-23.47.37:678][815]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D142C301_2136596695] -25.0
+[2023.12.06-23.47.44:278][211]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D1C2C001_1143272058] 25.0
+[2023.12.06-23.47.44:644][233]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_UAID_30050581C9D1FEBC01_1376950391] 175.0
+[2023.12.06-23.47.49:278][511]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D1C2C001_1143272058] 0.0
+[2023.12.06-23.47.49:777][541]LogBlueprintUserMessages: [BP_EnemyCharacter_C_UAID_30050581C9D1C2C001_1143272058] -25.0
+[2023.12.06-23.47.50:644][593]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_UAID_30050581C9D1FEBC01_1376950391] 150.0
+[2023.12.06-23.47.54:546][827]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 100.0
+[2023.12.06-23.47.56:644][953]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_UAID_30050581C9D1FEBC01_1376950391] 125.0
+[2023.12.06-23.47.58:262][ 50]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] 75.0
+[2023.12.06-23.47.58:342][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-23.47.58:342][ 53]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.06-23.47.58:342][ 53]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-23.47.58:343][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.47.58:343][ 53]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.06-23.47.58:349][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-23.47.58:353][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.47.58:378][ 53]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.06-23.47.58:378][ 53]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.06-23.47.58:378][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.06-23.47.58:378][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.06-23.47.58:383][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-23.47.58:386][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.12.06-23.47.58:417][ 53]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.47.58:445][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.12.06-23.47.58:457][ 54]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.48.23:639][533]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.06-23.48.23:648][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OM/DSCR56V0BUZNJ6EHCJY50Q_Auto3
+[2023.12.06-23.48.23:649][533]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/DSCR56V0BUZNJ6EHCJY50Q_Auto31423DF6448253D4BC30D5E9906A14F41.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OM/DSCR56V0BUZNJ6EHCJY50Q_Auto3.uasset'
+[2023.12.06-23.48.23:652][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/5C/8EAWA4KHL7LLTENWQE7DPW_Auto3
+[2023.12.06-23.48.23:653][533]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/8EAWA4KHL7LLTENWQE7DPW_Auto3A4BB67CA4AC031BDE0D1DC81B6D56A12.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/5C/8EAWA4KHL7LLTENWQE7DPW_Auto3.uasset'
+[2023.12.06-23.48.23:656][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/57/XDBIFRCV75G65QQAWH1M5M_Auto3
+[2023.12.06-23.48.23:656][533]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/XDBIFRCV75G65QQAWH1M5M_Auto37DBC133A414A02F721455290ECFF3BA0.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/57/XDBIFRCV75G65QQAWH1M5M_Auto3.uasset'
+[2023.12.06-23.48.23:659][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6I/SH23PVYFITKMDU6LVKIHLW_Auto3
+[2023.12.06-23.48.23:659][533]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/SH23PVYFITKMDU6LVKIHLW_Auto3CB4A6A3A48005E2765DFC78CABFC7890.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6I/SH23PVYFITKMDU6LVKIHLW_Auto3.uasset'
+[2023.12.06-23.48.23:663][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/BW/MQH749FW4MB0IDAC72TN1N_Auto3
+[2023.12.06-23.48.23:664][533]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/MQH749FW4MB0IDAC72TN1N_Auto3C870B0F4485E92223E09919A4F877AA7.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/BW/MQH749FW4MB0IDAC72TN1N_Auto3.uasset'
+[2023.12.06-23.48.23:667][533]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VE/J76UXXSHH77VLHEXGJ4B2T_Auto3
+[2023.12.06-23.48.23:668][533]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/J76UXXSHH77VLHEXGJ4B2T_Auto387C521CF4C9CB8C5FB9C1BA6E4FA736A.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VE/J76UXXSHH77VLHEXGJ4B2T_Auto3.uasset'
+[2023.12.06-23.48.23:669][533]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.053
+[2023.12.06-23.48.23:669][533]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2023.12.06-23.49.01:235][785]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.06-23.49.01:241][785]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.06-23.49.01:243][785]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.06-23.49.01:243][785]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.06-23.49.01:243][785]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 96 us)
+[2023.12.06-23.49.01:243][785]LogWorldPartition: Display: GenerateStreaming took 142 us (total: 49 ms)
+[2023.12.06-23.49.01:245][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.06-23.49.01:245][785]PIE: New page: PIE session: ThirdPersonMap (Dec 6, 2023, 1:49:01 PM)
+[2023.12.06-23.49.01:292][785]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.06-23.49.01:299][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006127s)
+[2023.12.06-23.49.01:299][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.006210s)
+[2023.12.06-23.49.01:299][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.06-23.49.01:299][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.06-23.49.01:299][785]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2023.12.06-23.49.01:299][785]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.06-23.49.01:299][785]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.06-23.49.01:299][785]LogWorldPartition: UWorldPartition::Initialize(Asset=ThirdPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.06-23.49.01:300][785]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2023.12.06-23.49.01:300][785]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 339 ms)
+[2023.12.06-23.49.01:300][785]LogPlayLevel: PIE: World Init took: (0.001889s)
+[2023.12.06-23.49.01:322][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.06-23.49.01:324][785]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.06-23.49.01:324][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.06-23.49.01:324][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.06-23.49.01:324][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.06-23.49.01:324][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.06-23.49.01:324][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.06-23.49.01:325][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.06-23.49.01:354][785]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.06-23.49.01:354][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.06-23.49.01:354][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.06-23.49.01:354][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.06-23.49.01:355][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.06-23.49.01:355][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.12.06-23.49.01:356][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.06-23.49.01:356][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.06-23.49.01:356][785]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.06-23.49.01:356][785]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2023.12.06-23.49.01:356][785]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.06-23.49.01:359][785]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.12.06-23.49.01:363][785]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2023.12.06-18.49.01
+[2023.12.06-23.49.01:364][785]LogWorld: Bringing up level for play took: 0.005792
+[2023.12.06-23.49.01:367][785]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.12.06-23.49.01:379][785]PIE: Server logged in
+[2023.12.06-23.49.01:379][785]PIE: Play in editor total start time 0.137 seconds.
+[2023.12.06-23.49.01:401][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:401][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:401][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:402][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:402][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:402][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:402][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:403][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:403][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:403][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:405][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:405][785]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:413][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:413][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:413][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:414][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:414][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:414][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:414][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:414][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:415][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:415][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:415][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:416][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:417][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.01:418][786]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.07:182][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-23.49.07:182][127]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2023.12.06-23.49.07:183][127]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.06-23.49.07:184][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.49.07:184][127]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2023.12.06-23.49.07:189][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.06-23.49.07:193][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.06-23.49.07:217][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.06-23.49.07:217][127]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.06-23.49.07:218][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.06-23.49.07:219][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.06-23.49.07:226][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.06-23.49.07:256][127]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.07:287][128]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.12.06-23.49.07:298][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.06-23.49.08:806][178]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.06-23.49.08:899][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OM/DSCR56V0BUZNJ6EHCJY50Q
+[2023.12.06-23.49.08:899][178]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/DSCR56V0BUZNJ6EHCJY50Q7BDA214B434AB787BDF7A996C71B25E6.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/OM/DSCR56V0BUZNJ6EHCJY50Q.uasset'
+[2023.12.06-23.49.08:903][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/5C/8EAWA4KHL7LLTENWQE7DPW
+[2023.12.06-23.49.08:904][178]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/8EAWA4KHL7LLTENWQE7DPWE4B19B94431625CADABCFB8CF551C37A.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/5C/8EAWA4KHL7LLTENWQE7DPW.uasset'
+[2023.12.06-23.49.08:907][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/57/XDBIFRCV75G65QQAWH1M5M
+[2023.12.06-23.49.08:908][178]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/XDBIFRCV75G65QQAWH1M5M877AE7084B1397A84162188FB0BC7A4A.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/57/XDBIFRCV75G65QQAWH1M5M.uasset'
+[2023.12.06-23.49.08:911][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6I/SH23PVYFITKMDU6LVKIHLW
+[2023.12.06-23.49.08:912][178]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/SH23PVYFITKMDU6LVKIHLW8203522E4D485641580A678F859AE90D.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/9/6I/SH23PVYFITKMDU6LVKIHLW.uasset'
+[2023.12.06-23.49.08:915][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/BW/MQH749FW4MB0IDAC72TN1N
+[2023.12.06-23.49.08:916][178]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/MQH749FW4MB0IDAC72TN1N6D5F68674CEFFCDAFBD95C8BE6D08229.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/BW/MQH749FW4MB0IDAC72TN1N.uasset'
+[2023.12.06-23.49.08:919][178]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VE/J76UXXSHH77VLHEXGJ4B2T
+[2023.12.06-23.49.08:920][178]LogSavePackage: Moving '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Saved/J76UXXSHH77VLHEXGJ4B2TC20C5A844BFC16628875FFB3486269B2.tmp' to '../../../../../../Users/mxiong/Documents/Unreal Projects/FinalGroupProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VE/J76UXXSHH77VLHEXGJ4B2T.uasset'
+[2023.12.06-23.49.08:935][178]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 1.24 sec)
+[2023.12.06-23.49.08:941][178]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.06-23.49.08:941][178]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_EnemyCharacter_C_UAID_30050581C9D1C0C001_1997388705
+[2023.12.06-23.49.08:941][178]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_EnemyCharacter_C_UAID_30050581C9D1C2C001_1145333059
+[2023.12.06-23.49.08:941][178]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_EnemyCharacter_C_UAID_30050581C9D142C301_2136596695
+[2023.12.06-23.49.08:941][178]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_EnemyCharacter.BP_EnemyCharacter_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_EnemyCharacter_C_UAID_30050581C9D1C2C001_1143272058
+[2023.12.06-23.49.08:941][178]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_ThirdPersonCharacter_C_UAID_30050581C9D1FEBC01_1376950391
+[2023.12.06-23.49.08:941][178]LogContentValidation: Display: Validating /Game/ThirdPerson/Blueprints/BP_Dragon.BP_Dragon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Dragon_C_UAID_30050581C9D1F7C201_1621864501
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshLODToolset/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Experimental/UVEditor/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/GLTFImporter/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.17:941][526]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.2/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/mxiong/Documents/Unreal Projects/FinalGroupProject'
+[2023.12.06-23.49.24:144][526]LogSlate: Window 'Submit Files' being destroyed
+[2023.12.06-23.49.25:725][526]LogSourceControl: commit successful: [MsapBranch 60ef0dd] BossHealthPart2
+[2023.12.06-23.49.26:243][526]SourceControl: [MsapBranch 60ef0dd] BossHealthPart2
+[2023.12.06-23.49.26:243][526]SourceControl:  6 files changed, 0 insertions(+), 0 deletions(-)
+[2023.12.06-23.49.26:292][526]SourceControl: Commited [MsapBranch 60ef0dd] BossHealthPart2.
